@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="active" version_id="100001" version_string="1.0.0"><![CDATA[قيد المعالجة]]></phrase>
+  <phrase title="byCountry" version_id="100001" version_string="1.0.0"><![CDATA[حالات]]></phrase>
+  <phrase title="cases" version_id="100001" version_string="1.0.0"><![CDATA[الإصابات]]></phrase>
+  <phrase title="casesPerOneMillion" version_id="100001" version_string="1.0.0"><![CDATA[الاصابات في كل مليون]]></phrase>
+  <phrase title="critical" version_id="100001" version_string="1.0.0"><![CDATA[الحالات الحرجة]]></phrase>
+  <phrase title="deaths" version_id="100001" version_string="1.0.0"><![CDATA[الوفيات]]></phrase>
+  <phrase title="deathsPerOneMillion" version_id="100001" version_string="1.0.0"><![CDATA[الوفيات في كل مليون]]></phrase>
+  <phrase title="recovered" version_id="100001" version_string="1.0.0"><![CDATA[حالات الشفاء]]></phrase>
+  <phrase title="todayCases" version_id="100001" version_string="1.0.0"><![CDATA[إصابات اليوم]]></phrase>
+  <phrase title="todayDeaths" version_id="100001" version_string="1.0.0"><![CDATA[وفيات اليوم]]></phrase>
+  <phrase title="widget_def.Corona" version_id="100001" version_string="1.0.0"><![CDATA[Corona]]></phrase>
+  <phrase title="widget_def_desc.Corona" version_id="100001" version_string="1.0.0"><![CDATA[Corona]]></phrase>
+</phrases>

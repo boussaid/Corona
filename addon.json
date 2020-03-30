@@ -1,0 +1,25 @@
+{
+    "legacy_addon_id": "",
+    "title": "Coronavirus statistics",
+    "description": "",
+    "version_id": 100001,
+    "version_string": "1.0.0",
+    "dev": "BOUSSAID Mustafa",
+    "dev_url": "https://twitter.com/bousaid_mustafa",
+    "faq_url": "https://github.com/boussaid",
+    "support_url": "https://github.com/boussaid",
+    "extra_urls": {
+        "Contact": "mailto://bousali@gmail.com"
+    },
+    "require": {
+        "XF": [
+            2010051,
+            "XenForo 2.1.0+"
+        ],
+        "php": [
+            "5.6.0",
+            "PHP 5.6.0+"
+        ]
+    },
+    "icon": "fa-ambulance"
+}
