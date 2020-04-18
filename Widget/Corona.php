@@ -16,8 +16,8 @@ public function render()
   $options = $this->options;
 	$contry = $options['contry'];
 		
-		$all = file_get_contents("https://corona.lmao.ninja/all");
-		$dz = file_get_contents("https://corona.lmao.ninja/countries/".$contry);
+		$all = file_get_contents("https://corona.lmao.ninja/v2/all");
+		$dz = file_get_contents("https://corona.lmao.ninja/v2/countries/".$contry);
 		$xall = json_decode($all, true);
 		$xcontry = json_decode($dz, true);		
 		

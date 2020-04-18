@@ -41,12 +41,14 @@
 			<dl class="head"><dt><xf:fa icon="fa-skull-crossbones fa-flip-horizontal" /> {{ phrase('deaths') }}</dt><dd class="maincounter-number maincounter-number--death">{$all.deaths|number}</dd></dl>
 			<dl class="head"><dt><xf:fa icon="fa-thumbs-up fa-flip-horizontal" /> {{ phrase('recovered') }}</dt><dd class="maincounter-number maincounter-number--recovered">{$all.recovered|number}</dd></dl>
 			<dl class="head"><dt><xf:fa icon="fa-bed fa-flip-horizontal" /> {{ phrase('active') }}</dt><dd class="maincounter-number maincounter-number--actives">{$all.active|number}</dd></dl>
+			<dl class="head"><dt><xf:fa icon="fa-vial fa-flip-horizontal" /> {{ phrase('tests') }}</dt><dd class="maincounter-number maincounter-number--actives">{$all.tests|number}</dd></dl>
+			<dl class="head"><dt><xf:fa icon="fa-globe-africa fa-flip-horizontal" /> {{ phrase('affectedCountries') }}</dt><dd class="maincounter-number">{$all.affectedCountries|number}</dd></dl>
 		</div>
 	</div>
 </div>
 <div class="block">
     <div class="block-container">
-		<h3 class="block-minorHeader">{{ phrase('byCountry') }}<img src="{{ $contrys.countryInfo.flag }}" width="20px" />-{$contrys.country|raw}</h3>
+		<h3 class="block-minorHeader">{{ phrase('byCountry') }}<img src="{{ $contrys.countryInfo.flag }}" width="20px" /> {$contrys.country|raw}</h3>
         <div class="block-body block-row">
 			
 			
@@ -57,8 +59,10 @@
 			<dl class="pairs pairs--justified"><dt>{{ phrase('recovered') }}</dt><dd>{$contrys.recovered|number}</dd></dl>
 			<dl class="pairs pairs--justified"><dt>{{ phrase('active') }}</dt><dd>{$contrys.active|number}</dd></dl>
 			<dl class="pairs pairs--justified"><dt>{{ phrase('critical') }}</dt><dd>{$contrys.critical|number}</dd></dl>
+			<dl class="pairs pairs--justified"><dt>{{ phrase('tests') }}</dt><dd>{$contrys.tests|number}</dd></dl>
 			<dl class="pairs pairs--justified"><dt>{{ phrase('casesPerOneMillion') }}</dt><dd>{$contrys.casesPerOneMillion}</dd></dl>
 			<dl class="pairs pairs--justified"><dt>{{ phrase('deathsPerOneMillion') }}</dt><dd>{$contrys.deathsPerOneMillion}</dd></dl>
+			<dl class="pairs pairs--justified"><dt>{{ phrase('testsPerOneMillion') }}</dt><dd>{$contrys.testsPerOneMillion}</dd></dl>
         </div>
 	</div>
 </div>]]></template>
